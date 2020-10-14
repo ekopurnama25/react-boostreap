@@ -14,6 +14,15 @@ import HomeContainer from './containers/HomeContainer';
 export default class App extends Component {
   state = {
     title: 'React Crud',
+    users : [
+      {
+          id : 1,
+          name : "Eko Purnama Azi",
+          alamat : "Jl Kh Mohamad Idris",
+          umur : 21,
+          notlpn : "08381751021"
+      }
+    ]
   }
 
   render() {
